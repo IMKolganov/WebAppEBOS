@@ -12,7 +12,7 @@ using WebAppEBOS.Data;
 namespace WebAppEBOS.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230727113506_Initial")]
+    [Migration("20230727123805_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -58,10 +58,10 @@ namespace WebAppEBOS.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 7, 27, 11, 35, 6, 112, DateTimeKind.Utc).AddTicks(2321),
+                            Created = new DateTime(2023, 7, 27, 12, 38, 5, 399, DateTimeKind.Utc).AddTicks(2669),
                             Name = "Instance",
                             RefAppId = 1,
-                            Updated = new DateTime(2023, 7, 27, 11, 35, 6, 112, DateTimeKind.Utc).AddTicks(2323)
+                            Updated = new DateTime(2023, 7, 27, 12, 38, 5, 399, DateTimeKind.Utc).AddTicks(2675)
                         });
                 });
 

@@ -10,7 +10,7 @@ public static class EnumFunctions
             enums.Add(new TModel
             {
                 Id = enumVar,
-                Name = enumVar.ToString()
+                Name = enumVar?.ToString() ?? throw new InvalidOperationException()
             });
         }
 

@@ -16,17 +16,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<User>(
     options =>
     {
-        options.SignIn.RequireConfirmedAccount = true;
-        options.Password.RequireDigit = true;
-        options.Password.RequiredLength = 4;
-        options.Password.RequireNonAlphanumeric = false;
-        options.Password.RequireUppercase = false;
-        options.Password.RequireLowercase = false;
-        // options.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultEmailProvider;
-        // options.Tokens.EmailConfirmationTokenProvider = TokenOptions.DefaultEmailProvider;
 
     })
-    // .AddTokenProvider<DataProtectorTokenProvider<User>>("CustomTokenProvider")
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 

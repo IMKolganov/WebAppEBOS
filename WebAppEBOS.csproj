@@ -14,7 +14,7 @@
 
     <ItemGroup>
       <Folder Include="Migrations" />
-      <Folder Include="Service\Identity" />
+      <Folder Include="Service" />
     </ItemGroup>
 
     <ItemGroup>
