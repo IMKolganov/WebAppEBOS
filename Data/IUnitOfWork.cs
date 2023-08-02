@@ -1,5 +1,7 @@
 ﻿using System.Data;
 using WebAppEBOS.Data.Entites.Interfaces;
+using WebAppEBOS.Data.Repositories;
+using WebAppEBOS.Data.Repositories.Interfaces;
 
 namespace WebAppEBOS.Data;
 

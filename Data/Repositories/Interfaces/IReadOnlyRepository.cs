@@ -1,6 +1,9 @@
 using WebAppEBOS.Data.Entites.Interfaces;
+using WebAppEBOS.Data.PageData;
+using WebAppEBOS.Data.Specifications;
+using WebAppEBOS.Data.Specifications.Interfaces;
 
-namespace WebAppEBOS.Data;
+namespace WebAppEBOS.Data.Repositories.Interfaces;
 
 public interface IReadOnlyRepository<in TKey, TEntity> 
 where TEntity : IEntity<TKey>

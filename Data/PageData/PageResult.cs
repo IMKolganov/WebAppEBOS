@@ -1,4 +1,6 @@
-﻿namespace WebAppEBOS.Data;
+﻿using WebAppEBOS.Data.PageData.Interfaces;
+
+namespace WebAppEBOS.Data.PageData;
 
 public class PageResult<T> : IHasItems<T>
 {

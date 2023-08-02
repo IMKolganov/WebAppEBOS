@@ -1,4 +1,4 @@
-﻿namespace WebAppEBOS.Data;
+﻿namespace WebAppEBOS.Data.Specifications.Interfaces;
 
 public interface IExpressionSpecification<T> : ISpecification<T>
 {

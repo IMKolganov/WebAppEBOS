@@ -1,7 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebAppEBOS.Data.Entites.Interfaces;
+using WebAppEBOS.Data.Extensions;
+using WebAppEBOS.Data.PageData;
+using WebAppEBOS.Data.Repositories.Interfaces;
+using WebAppEBOS.Data.Specifications;
+using WebAppEBOS.Data.Specifications.Interfaces;
 
-namespace WebAppEBOS.Data;
+namespace WebAppEBOS.Data.Repositories;
 
 public class GenericReadOnlyRepository<TKey, TEntity> :
     IReadOnlyRepository<TKey, TEntity>

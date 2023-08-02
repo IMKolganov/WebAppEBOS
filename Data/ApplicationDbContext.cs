@@ -14,6 +14,8 @@ public class ApplicationDbContext : IdentityDbContext<User, Role, int, UserClaim
     {
     }
     
+    public DbSet<Customer> Customer => Set<Customer>();
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder

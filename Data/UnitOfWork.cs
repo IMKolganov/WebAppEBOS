@@ -2,6 +2,9 @@
 using System.Data;
 using Microsoft.EntityFrameworkCore;
 using WebAppEBOS.Data.Entites.Interfaces;
+using WebAppEBOS.Data.Extensions;
+using WebAppEBOS.Data.Repositories;
+using WebAppEBOS.Data.Repositories.Interfaces;
 
 namespace WebAppEBOS.Data;
 

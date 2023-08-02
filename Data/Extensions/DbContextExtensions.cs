@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-
-namespace WebAppEBOS.Data;
+﻿namespace WebAppEBOS.Data.Extensions;
 
 public static partial class DbContextExtensions
 {
