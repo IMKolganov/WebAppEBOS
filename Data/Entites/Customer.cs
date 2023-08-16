@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebAppEBOS.Data.Entites.Enums;
 using WebAppEBOS.Data.Entites.Interfaces;
 
 namespace WebAppEBOS.Data.Entites;

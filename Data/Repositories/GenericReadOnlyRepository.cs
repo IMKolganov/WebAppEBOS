@@ -81,29 +81,29 @@ public class GenericReadOnlyRepository<TKey, TEntity> :
     {
         specification.ThrowIfNull(nameof(specification));
 
-        // var items = await _dbSet
-        //     .BuildQuery(specification)
-        //     .ToArrayAsync(cancellationToken: token);
+        var items = await _dbSet
+            .BuildQuery(specification)
+            .ToArrayAsync(cancellationToken: token);
 
-        return null;
+        return items;
     }
 
     public async Task<PageResult<TEntity>> FetchAsync(IPageSpecification<TEntity> specification,
         CancellationToken token = default)
     {
-        // specification.ThrowIfNull(nameof(specification));
-        //
-        // var skipCount = specification.Index * specification.Size;
-        // var items = await _dbSet
-        //     .BuildQuery(specification)
-        //     .ToArrayAsync(cancellationToken: token);
-        //
-        // var total = await _dbSet.CountAsync(specification.Expression, cancellationToken: token);
+        specification.ThrowIfNull(nameof(specification));
+        
+        var skipCount = specification.Index * specification.Size;
+        var items = await _dbSet
+            .BuildQuery(specification)
+            .ToArrayAsync(cancellationToken: token);
+        
+        var total = await _dbSet.CountAsync(specification.Expression, cancellationToken: token);
 
         var result = new PageResult<TEntity>
         {
-            Total = 0,
-            Items = null
+            Total = total,
+            Items = items
         };
 
         return result;

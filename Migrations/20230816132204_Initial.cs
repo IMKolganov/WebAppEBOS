@@ -21,7 +21,8 @@ namespace WebAppEBOS.Migrations
                     RefAppId = table.Column<int>(type: "int", nullable: false),
                     Path = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Created = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Updated = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Updated = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Status = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -156,8 +157,8 @@ namespace WebAppEBOS.Migrations
 
             migrationBuilder.InsertData(
                 table: "Customers",
-                columns: new[] { "Id", "Created", "Name", "Path", "RefAppId", "Updated" },
-                values: new object[] { 1, new DateTime(2023, 7, 27, 12, 38, 5, 399, DateTimeKind.Utc).AddTicks(2669), "Instance", null, 1, new DateTime(2023, 7, 27, 12, 38, 5, 399, DateTimeKind.Utc).AddTicks(2675) });
+                columns: new[] { "Id", "Created", "Name", "Path", "RefAppId", "Status", "Updated" },
+                values: new object[] { 1, new DateTime(2023, 8, 16, 13, 22, 4, 699, DateTimeKind.Utc).AddTicks(5827), "Instance", null, 1, 1, new DateTime(2023, 8, 16, 13, 22, 4, 699, DateTimeKind.Utc).AddTicks(5828) });
         }
 
         /// <inheritdoc />

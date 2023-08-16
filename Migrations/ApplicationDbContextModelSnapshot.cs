@@ -44,6 +44,9 @@ namespace WebAppEBOS.Migrations
                     b.Property<int>("RefAppId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Updated")
                         .HasColumnType("datetime2");
 
@@ -55,10 +58,11 @@ namespace WebAppEBOS.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 7, 27, 12, 38, 5, 399, DateTimeKind.Utc).AddTicks(2669),
+                            Created = new DateTime(2023, 8, 16, 13, 22, 4, 699, DateTimeKind.Utc).AddTicks(5827),
                             Name = "Instance",
                             RefAppId = 1,
-                            Updated = new DateTime(2023, 7, 27, 12, 38, 5, 399, DateTimeKind.Utc).AddTicks(2675)
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 16, 13, 22, 4, 699, DateTimeKind.Utc).AddTicks(5828)
                         });
                 });
 
