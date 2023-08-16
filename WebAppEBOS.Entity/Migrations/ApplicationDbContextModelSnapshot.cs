@@ -8,7 +8,7 @@ using WebAppEBOS.Data;
 
 #nullable disable
 
-namespace WebAppEBOS.Migrations
+namespace WebAppEBOS.Entity.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -58,11 +58,11 @@ namespace WebAppEBOS.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 8, 16, 13, 22, 4, 699, DateTimeKind.Utc).AddTicks(5827),
+                            Created = new DateTime(2023, 8, 16, 13, 50, 36, 96, DateTimeKind.Utc).AddTicks(3738),
                             Name = "Instance",
                             RefAppId = 1,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 16, 13, 22, 4, 699, DateTimeKind.Utc).AddTicks(5828)
+                            Updated = new DateTime(2023, 8, 16, 13, 50, 36, 96, DateTimeKind.Utc).AddTicks(3740)
                         });
                 });
 

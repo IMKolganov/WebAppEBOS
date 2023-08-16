@@ -15,9 +15,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Migrations" />
+      <Folder Include="Data" />
       <Folder Include="Pages\Control" />
-      <Folder Include="Service" />
     </ItemGroup>
 
     <ItemGroup>
@@ -40,5 +39,9 @@
 
     <ItemGroup>
       <AdditionalFiles Include="Pages\Control\Сustomers\index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WebAppEBOS.Entity\WebAppEBOS.Entity.csproj" />
     </ItemGroup>
 </Project>
