@@ -158,7 +158,7 @@ namespace WebAppEBOS.Entity.Migrations
             migrationBuilder.InsertData(
                 table: "Customers",
                 columns: new[] { "Id", "Created", "Name", "Path", "RefAppId", "Status", "Updated" },
-                values: new object[] { 1, new DateTime(2023, 8, 16, 13, 50, 36, 96, DateTimeKind.Utc).AddTicks(3738), "Instance", null, 1, 1, new DateTime(2023, 8, 16, 13, 50, 36, 96, DateTimeKind.Utc).AddTicks(3740) });
+                values: new object[] { 1, new DateTime(2023, 8, 16, 13, 57, 8, 245, DateTimeKind.Utc).AddTicks(3647), "Instance", null, 1, 1, new DateTime(2023, 8, 16, 13, 57, 8, 245, DateTimeKind.Utc).AddTicks(3648) });
         }
 
         /// <inheritdoc />

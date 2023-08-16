@@ -58,11 +58,11 @@ namespace WebAppEBOS.Entity.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 8, 16, 13, 50, 36, 96, DateTimeKind.Utc).AddTicks(3738),
+                            Created = new DateTime(2023, 8, 16, 13, 57, 8, 245, DateTimeKind.Utc).AddTicks(3647),
                             Name = "Instance",
                             RefAppId = 1,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 16, 13, 50, 36, 96, DateTimeKind.Utc).AddTicks(3740)
+                            Updated = new DateTime(2023, 8, 16, 13, 57, 8, 245, DateTimeKind.Utc).AddTicks(3648)
                         });
                 });
 
