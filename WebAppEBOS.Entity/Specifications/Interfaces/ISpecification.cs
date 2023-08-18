@@ -1,4 +1,4 @@
-﻿namespace WebAppEBOS.Data.Specifications.Interfaces;
+﻿namespace WebAppEBOS.Entity.Specifications.Interfaces;
 
 public interface ISpecification<in T>
 {

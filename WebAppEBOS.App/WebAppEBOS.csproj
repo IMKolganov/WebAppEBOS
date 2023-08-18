@@ -15,7 +15,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Data" />
       <Folder Include="Pages\Control" />
     </ItemGroup>
 
@@ -35,6 +34,9 @@
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Pages\Shared\_Layout.cshtml" />
       <_ContentIncludedByDefault Remove="Pages\Shared\_ValidationScriptsPartial.cshtml" />
+      <_ContentIncludedByDefault Remove="ManagePages\obj\ManagePages.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="ManagePages\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="ManagePages\obj\project.packagespec.json" />
     </ItemGroup>
 
     <ItemGroup>

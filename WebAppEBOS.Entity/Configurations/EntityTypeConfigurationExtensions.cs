@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace WebAppEBOS.Data.Configurations;
+namespace WebAppEBOS.Entity.Configurations;
 
 public static class EntityTypeConfigurationExtensions
 {

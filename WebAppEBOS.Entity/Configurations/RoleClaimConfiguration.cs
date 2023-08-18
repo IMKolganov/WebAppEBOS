@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using WebAppEBOS.Data.Entites;
-using WebAppEBOS.Data.Seed;
+using WebAppEBOS.Entity.Entites;
 
-namespace WebAppEBOS.Data.Configurations;
+namespace WebAppEBOS.Entity.Configurations;
 
 public class RoleClaimConfiguration: IEntityTypeConfiguration<RoleClaim>
 {

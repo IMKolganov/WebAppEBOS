@@ -1,10 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebAppEBOS.Data;
-using WebAppEBOS.Data.Entites;
-using WebAppEBOS.Data.Repositories;
-using WebAppEBOS.Data.Repositories.Interfaces;
-using WebAppEBOS.Data.Specifications;
+using WebAppEBOS.Entity;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Repositories;
+using WebAppEBOS.Entity.Repositories.Interfaces;
+using WebAppEBOS.Entity.Specifications;
+using WebAppEBOS.Entity;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Specifications;
 
 namespace WebAppEBOS.Pages.Cakes;
 

@@ -1,4 +1,4 @@
-﻿namespace WebAppEBOS.Data.Entites.Interfaces;
+﻿namespace WebAppEBOS.Entity.Entites.Interfaces;
 
 public interface IHasId<T>
 {

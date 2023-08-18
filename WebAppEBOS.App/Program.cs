@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using WebAppEBOS.Data;
-using WebAppEBOS.Data.Entites;
+using WebAppEBOS.Entity;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity;
+using WebAppEBOS.Entity.Entites;
 
 var builder = WebApplication.CreateBuilder(args);
 

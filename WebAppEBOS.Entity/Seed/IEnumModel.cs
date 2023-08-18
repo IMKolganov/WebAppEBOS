@@ -1,4 +1,4 @@
-﻿namespace WebAppEBOS.Data.Seed
+﻿namespace WebAppEBOS.Entity.Seed
 {
     public interface IEnumModel<TModel, TModelIdType>
     {

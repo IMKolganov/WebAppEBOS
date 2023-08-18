@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using WebAppEBOS.Data.Entites;
-using WebAppEBOS.Data.Seed;
+using WebAppEBOS.Entity.Seed;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Seed;
 
-namespace WebAppEBOS.Data.Configurations;
+namespace WebAppEBOS.Entity.Configurations;
 
 public class CustomerConfiguration: IEntityTypeConfiguration<Customer>
 {

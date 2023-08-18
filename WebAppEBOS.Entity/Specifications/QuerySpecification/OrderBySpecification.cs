@@ -1,8 +1,8 @@
 ﻿using System.Linq.Expressions;
-using WebAppEBOS.Data.Specifications.Base;
-using WebAppEBOS.Data.Specifications.Interfaces;
+using WebAppEBOS.Entity.Specifications.Base;
+using WebAppEBOS.Entity.Specifications.Interfaces;
 
-namespace WebAppEBOS.Data.Specifications.QuerySpecification
+namespace WebAppEBOS.Entity.Specifications.QuerySpecification
 {
     // TODO rewrite
     public enum enOrderByType

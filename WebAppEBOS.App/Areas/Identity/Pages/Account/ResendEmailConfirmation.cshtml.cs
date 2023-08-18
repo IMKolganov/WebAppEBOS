@@ -13,7 +13,8 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
-using WebAppEBOS.Data.Entites;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites;
 
 namespace WebAppEBOS.Areas.Identity.Pages.Account
 {

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebAppEBOS.Data;
+using WebAppEBOS.Entity;
 
 #nullable disable
 
@@ -22,7 +22,7 @@ namespace WebAppEBOS.Entity.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("WebAppEBOS.Data.Entites.Customer", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Customer", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -58,15 +58,15 @@ namespace WebAppEBOS.Entity.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 8, 16, 13, 57, 8, 245, DateTimeKind.Utc).AddTicks(3647),
+                            Created = new DateTime(2023, 8, 18, 12, 41, 14, 570, DateTimeKind.Utc).AddTicks(7777),
                             Name = "Instance",
                             RefAppId = 1,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 16, 13, 57, 8, 245, DateTimeKind.Utc).AddTicks(3648)
+                            Updated = new DateTime(2023, 8, 18, 12, 41, 14, 570, DateTimeKind.Utc).AddTicks(7779)
                         });
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Data.Entites.Role", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Role", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -94,7 +94,7 @@ namespace WebAppEBOS.Entity.Migrations
                     b.ToTable("Roles", (string)null);
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Data.Entites.RoleClaim", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.RoleClaim", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -122,7 +122,7 @@ namespace WebAppEBOS.Entity.Migrations
                     b.ToTable("RoleClaims", (string)null);
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Data.Entites.User", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -183,7 +183,7 @@ namespace WebAppEBOS.Entity.Migrations
                     b.ToTable("Users", (string)null);
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Data.Entites.UserClaim", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.UserClaim", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -211,7 +211,7 @@ namespace WebAppEBOS.Entity.Migrations
                     b.ToTable("UserClaims", (string)null);
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Data.Entites.UserLogin", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.UserLogin", b =>
                 {
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
@@ -241,7 +241,7 @@ namespace WebAppEBOS.Entity.Migrations
                     b.ToTable("UserLogins", (string)null);
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Data.Entites.UserRole", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.UserRole", b =>
                 {
                     b.Property<int>("UserId")
                         .HasColumnType("int")
@@ -262,7 +262,7 @@ namespace WebAppEBOS.Entity.Migrations
                     b.ToTable("UserRoles", (string)null);
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Data.Entites.UserToken", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.UserToken", b =>
                 {
                     b.Property<int>("UserId")
                         .HasColumnType("int");

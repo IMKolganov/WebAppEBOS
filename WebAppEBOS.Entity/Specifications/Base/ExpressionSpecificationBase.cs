@@ -1,7 +1,7 @@
-﻿using WebAppEBOS.Data.Extensions;
-using WebAppEBOS.Data.Specifications.Interfaces;
+﻿using WebAppEBOS.Entity.Extensions;
+using WebAppEBOS.Entity.Specifications.Interfaces;
 
-namespace WebAppEBOS.Data.Specifications.Base;
+namespace WebAppEBOS.Entity.Specifications.Base;
 
 public abstract class ExpressionSpecificationBase<T> : 
     IExpressionSpecification<T>,

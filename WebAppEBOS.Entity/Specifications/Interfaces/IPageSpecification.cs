@@ -1,4 +1,6 @@
-﻿namespace WebAppEBOS.Data.Specifications.Interfaces;
+﻿using WebAppEBOS.Entity.Specifications.Interfaces;
+
+namespace WebAppEBOS.Entity.Specifications.Interfaces;
 
 public interface IPageSpecification<T> : 
     IQuerySpecification<T>,

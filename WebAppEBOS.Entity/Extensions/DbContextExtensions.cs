@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebAppEBOS.Data.Specifications.Interfaces;
-using WebAppEBOS.Data.Specifications.QuerySpecification;
+using WebAppEBOS.Entity.Specifications.Interfaces;
+using WebAppEBOS.Entity.Specifications.QuerySpecification;
+using WebAppEBOS.Entity.Specifications.Interfaces;
 
-namespace WebAppEBOS.Data.Extensions;
+namespace WebAppEBOS.Entity.Extensions;
 
 public static partial class DbContextExtensions
 {

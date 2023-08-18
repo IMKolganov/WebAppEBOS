@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using WebAppEBOS.Data;
+using WebAppEBOS.Entity;
 using WebAppEBOS.Models;
 using WebAppEBOS.Views.ManageCustomers;
 

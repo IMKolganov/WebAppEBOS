@@ -1,4 +1,4 @@
-﻿namespace WebAppEBOS.Data.Entites.Enums;
+﻿namespace WebAppEBOS.Entity.Entites.Enums;
 
 public enum EntityStatus
 {

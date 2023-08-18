@@ -17,7 +17,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using WebAppEBOS.Data.Entites;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites;
 
 namespace WebAppEBOS.Areas.Identity.Pages.Account
 {

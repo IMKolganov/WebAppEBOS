@@ -1,9 +1,9 @@
 ﻿using System.Linq.Expressions;
-using WebAppEBOS.Data.Entites;
-using WebAppEBOS.Data.Entites.Enums;
-using WebAppEBOS.Data.Specifications.Base;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites.Enums;
+using WebAppEBOS.Entity.Specifications.Base;
 
-namespace WebAppEBOS.Data.Specifications;
+namespace WebAppEBOS.Entity.Specifications;
 
 public sealed class AllCustomersSpecification: QuerySpecificationBase<Customer>
 {

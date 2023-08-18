@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using WebAppEBOS.Data.Entites;
-using WebAppEBOS.Data.Entites.Interfaces;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites.Interfaces;
 
-namespace WebAppEBOS.Data;
+namespace WebAppEBOS.Entity;
 
 public class ApplicationDbContext : IdentityDbContext<User, Role, int, UserClaim, UserRole, UserLogin, RoleClaim, UserToken>
 {

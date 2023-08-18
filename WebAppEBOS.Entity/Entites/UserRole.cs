@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
-using WebAppEBOS.Data.Entites.Interfaces;
+using WebAppEBOS.Entity.Entites.Interfaces;
 
-namespace WebAppEBOS.Data.Entites;
+namespace WebAppEBOS.Entity.Entites;
 
 public class UserRole : IdentityUserRole<int>, IEntity<int>, IEntityBase
 {

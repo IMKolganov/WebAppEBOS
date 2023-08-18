@@ -1,8 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using WebAppEBOS.Data.Entites.Enums;
-using WebAppEBOS.Data.Entites.Interfaces;
+using WebAppEBOS.Entity.Entites.Interfaces;
 
-namespace WebAppEBOS.Data.Entites;
+namespace WebAppEBOS.Entity.Entites;
 
 public class Customer : EntityBase, IEntity<int>
 {

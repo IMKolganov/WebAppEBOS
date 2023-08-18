@@ -1,8 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Identity;
-using WebAppEBOS.Data.Entites.Interfaces;
+﻿using Microsoft.AspNetCore.Identity;
+using WebAppEBOS.Entity.Entites.Interfaces;
 
-namespace WebAppEBOS.Data.Entites;
+namespace WebAppEBOS.Entity.Entites;
 
 public class RoleClaim : IdentityRoleClaim<int>, IEntity<int>, IEntityBase
 { 

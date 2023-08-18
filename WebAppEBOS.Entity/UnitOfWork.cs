@@ -1,12 +1,12 @@
 ﻿using System.Collections.Concurrent;
 using System.Data;
 using Microsoft.EntityFrameworkCore;
-using WebAppEBOS.Data.Entites.Interfaces;
-using WebAppEBOS.Data.Extensions;
-using WebAppEBOS.Data.Repositories;
-using WebAppEBOS.Data.Repositories.Interfaces;
+using WebAppEBOS.Entity.Entites.Interfaces;
+using WebAppEBOS.Entity.Extensions;
+using WebAppEBOS.Entity.Repositories;
+using WebAppEBOS.Entity.Repositories.Interfaces;
 
-namespace WebAppEBOS.Data;
+namespace WebAppEBOS.Entity;
 
 public class UnitOfWork : IUnitOfWork
 {

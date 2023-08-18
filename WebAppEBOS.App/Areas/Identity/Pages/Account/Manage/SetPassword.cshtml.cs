@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebAppEBOS.Data.Entites;
+using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites;
 
 namespace WebAppEBOS.Areas.Identity.Pages.Account.Manage
 {

@@ -1,7 +1,7 @@
-﻿using WebAppEBOS.Data.Entites;
-using WebAppEBOS.Data.Entites.Enums;
+﻿using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites.Enums;
 
-namespace WebAppEBOS.Data.Seed;
+namespace WebAppEBOS.Entity.Seed;
 
 public class DataSeed
 {

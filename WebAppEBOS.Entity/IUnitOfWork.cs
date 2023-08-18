@@ -1,9 +1,8 @@
 ﻿using System.Data;
-using WebAppEBOS.Data.Entites.Interfaces;
-using WebAppEBOS.Data.Repositories;
-using WebAppEBOS.Data.Repositories.Interfaces;
+using WebAppEBOS.Entity.Entites.Interfaces;
+using WebAppEBOS.Entity.Repositories.Interfaces;
 
-namespace WebAppEBOS.Data;
+namespace WebAppEBOS.Entity;
 
 public interface IUnitOfWork 
 {

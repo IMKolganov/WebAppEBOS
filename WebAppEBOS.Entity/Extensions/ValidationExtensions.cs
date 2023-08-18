@@ -1,4 +1,4 @@
-﻿namespace WebAppEBOS.Data.Extensions;
+﻿namespace WebAppEBOS.Entity.Extensions;
 
   public static class ValidationExtensions
   {
