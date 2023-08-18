@@ -209,8 +209,6 @@ public static IEnumerable<Customer> GetCustomers()
             CallDateTime = DateTime.Now.AddHours(-2)
         };
 
-        // ... добавьте предыдущие записи
-
         yield return new Call
         {
             Id = 7,
@@ -244,8 +242,6 @@ public static IEnumerable<Customer> GetCustomers()
             IsArchived = true,
             CallDateTime = DateTime.Now.AddHours(-10)
         };
-
-        // ... добавьте предыдущие записи
 
         yield return new Call
         {
