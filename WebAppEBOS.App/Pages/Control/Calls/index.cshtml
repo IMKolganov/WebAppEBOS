@@ -1,0 +1,37 @@
+@page "/Control/Calls/Index"
+@model WebAppEBOS.Pages.Control.Calls.IndexModel
+
+@{
+    ViewBag.Title = "Manage Calls";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var item in Model.AllCalls)
+        {
+            <div class="col-md-3 m-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Subject</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@item.CallerId</h6>
+                        <p class="card-text">@item.ReceiverId</p>
+                        <p class="card-text">@item.CallerPhoneNumber</p>
+                        <p class="card-text">@item.ReceiverPhoneNumber</p>
+                        <p class="card-text">@item.Description</p>
+                        <p class="card-text">@item.CallRating</p>
+                        <p class="card-text">@item.CallStatus</p>
+                        <p class="card-text">@item.StartTime</p>
+                        <p class="card-text">@item.CallDateTime</p>
+                        <p class="card-text">@item.DurationInSeconds</p>
+                        <p class="card-text">@item.IsArchived</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

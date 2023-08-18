@@ -5,30 +5,30 @@ using WebAppEBOS.Entity.Entites;
 using WebAppEBOS.Entity.Repositories.Interfaces;
 using WebAppEBOS.Entity.Specifications;
 
-namespace WebAppEBOS.Pages.Control.Сustomers;
+namespace WebAppEBOS.Pages.Control.Calls;
 
 public class IndexModel : PageModel
 {
 
     private readonly IUnitOfWork _unitOfWork;
-    private readonly IReadOnlyRepository<int, Customer> _repository;
+    private readonly IReadOnlyRepository<int, Call> _repository;
 
     public IndexModel(IUnitOfWork unitOfWork)
     {
         _unitOfWork = unitOfWork;
-        _repository = _unitOfWork.Repository<int, Customer>();
+        _repository = _unitOfWork.Repository<int, Call>();
     }
 
-    public IReadOnlyCollection<Customer> AllCustomers = new List<Customer>();
+    public IReadOnlyCollection<Call> AllCalls = new List<Call>();
 
     public async Task<IActionResult> OnGetAsync(CancellationToken cancellationToken)
     {
-        var query = new AllCustomersSpecification();
-        var allCustomers = await _repository.FetchAsync(query, cancellationToken);
+        var query = new AllCallsSpecification();
+        var allCalls = await _repository.FetchAsync(query, cancellationToken);
 
         var b = await _repository.GetAsync(1, cancellationToken);
 
-        AllCustomers = allCustomers;
+        AllCalls = allCalls;
         return Page();
     }
 }

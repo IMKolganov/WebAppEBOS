@@ -1,5 +1,5 @@
 @page "/Control/Customers/Index"
-@model WebAppEBOS.Pages.Cakes.IndexModel
+@model WebAppEBOS.Pages.Control.Сustomers.IndexModel
 
 @{
     ViewBag.Title = "Manage Customers";
@@ -18,8 +18,17 @@
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">@item.Name</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">@item.Path</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">@item.Surname</h6>
+                        <p class="card-text">@item.TelephoneHomeNumber</p>
+                        <p class="card-text">@item.TelephonePhoneNumber</p>
+                        <p class="card-text">@item.TelephoneWorkNumber</p>
+                        <p class="card-text">@item.Country</p>
+                        <p class="card-text">@item.Address</p>
+                        <p class="card-text">@item.PostCode</p>
+                        <p class="card-text">@item.DateBirth</p>
+                        <p class="card-text">@item.Path</p>
                         <p class="card-text">@item.RefAppId</p>
+                        
                     </div>
                 </div>
             </div>
