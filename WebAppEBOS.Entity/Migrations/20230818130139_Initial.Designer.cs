@@ -12,7 +12,7 @@ using WebAppEBOS.Entity;
 namespace WebAppEBOS.Entity.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230818124644_Initial")]
+    [Migration("20230818130139_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -61,195 +61,195 @@ namespace WebAppEBOS.Entity.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9475),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1876),
                             Name = "John",
                             RefAppId = 1,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9477)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1878)
                         },
                         new
                         {
                             Id = 2,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9483),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1886),
                             Name = "Emily",
-                            RefAppId = 1,
+                            RefAppId = 2,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9483)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1886)
                         },
                         new
                         {
                             Id = 3,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9485),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1887),
                             Name = "Michael",
-                            RefAppId = 1,
+                            RefAppId = 3,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9485)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1888)
                         },
                         new
                         {
                             Id = 4,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9486),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1889),
                             Name = "Sophia",
-                            RefAppId = 1,
+                            RefAppId = 9,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9486)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1889)
                         },
                         new
                         {
                             Id = 5,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9487),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1890),
                             Name = "William",
-                            RefAppId = 1,
+                            RefAppId = 5,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9487)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1890)
                         },
                         new
                         {
                             Id = 7,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9490),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1893),
                             Name = "Olivia",
-                            RefAppId = 1,
+                            RefAppId = 2,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9490)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1893)
                         },
                         new
                         {
                             Id = 8,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9491),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1894),
                             Name = "Liam",
-                            RefAppId = 1,
+                            RefAppId = 10,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9492)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1894)
                         },
                         new
                         {
                             Id = 9,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9493),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1895),
                             Name = "Ava",
-                            RefAppId = 1,
+                            RefAppId = 15,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9493)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1895)
                         },
                         new
                         {
                             Id = 10,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9494),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1897),
                             Name = "Noah",
-                            RefAppId = 1,
+                            RefAppId = 8,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9494)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1898)
                         },
                         new
                         {
                             Id = 11,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9496),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1899),
                             Name = "Isabella",
-                            RefAppId = 1,
+                            RefAppId = 4,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9496)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1899)
                         },
                         new
                         {
                             Id = 12,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9497),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1900),
                             Name = "James",
                             RefAppId = 1,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9497)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1901)
                         },
                         new
                         {
                             Id = 13,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9498),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1902),
                             Name = "Emma",
-                            RefAppId = 1,
+                            RefAppId = 6,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9498)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1902)
                         },
                         new
                         {
                             Id = 14,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9499),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1903),
                             Name = "Benjamin",
-                            RefAppId = 1,
+                            RefAppId = 11,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9499)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1903)
                         },
                         new
                         {
                             Id = 15,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9500),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1904),
                             Name = "Mia",
-                            RefAppId = 1,
+                            RefAppId = 14,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9500)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1904)
                         },
                         new
                         {
                             Id = 16,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9501),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1908),
                             Name = "Ethan",
-                            RefAppId = 1,
+                            RefAppId = 13,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9502)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1909)
                         },
                         new
                         {
                             Id = 17,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9503),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1910),
                             Name = "Charlotte",
-                            RefAppId = 1,
+                            RefAppId = 3,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9503)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1910)
                         },
                         new
                         {
                             Id = 18,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9505),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1911),
                             Name = "Alexander",
-                            RefAppId = 1,
+                            RefAppId = 5,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9505)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1912)
                         },
                         new
                         {
                             Id = 19,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9507),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1913),
                             Name = "Amelia",
-                            RefAppId = 1,
+                            RefAppId = 9,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9507)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1913)
                         },
                         new
                         {
                             Id = 20,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9508),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1914),
                             Name = "Daniel",
-                            RefAppId = 1,
+                            RefAppId = 7,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9508)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1915)
                         },
                         new
                         {
                             Id = 21,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9509),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1916),
                             Name = "Harper",
-                            RefAppId = 1,
+                            RefAppId = 10,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9509)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1916)
                         },
                         new
                         {
                             Id = 22,
-                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9510),
+                            Created = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1917),
                             Name = "Matthew",
-                            RefAppId = 1,
+                            RefAppId = 2,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9511)
+                            Updated = new DateTime(2023, 8, 18, 13, 1, 39, 600, DateTimeKind.Utc).AddTicks(1918)
                         });
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Role", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Identity.Role", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -277,7 +277,7 @@ namespace WebAppEBOS.Entity.Migrations
                     b.ToTable("Roles", (string)null);
                 });
 
-            modelBuilder.Entity("WebAppEBOS.Entity.Entites.RoleClaim", b =>
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Identity.RoleClaim", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -303,6 +303,111 @@ namespace WebAppEBOS.Entity.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("RoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Identity.UserClaim", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Updated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Identity.UserLogin", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LoginProvider")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProviderKey")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Updated")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("UserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Identity.UserRole", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int")
+                        .HasColumnOrder(1);
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int")
+                        .HasColumnOrder(2);
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Updated")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.ToTable("UserRoles", (string)null);
+                });
+
+            modelBuilder.Entity("WebAppEBOS.Entity.Entites.Identity.UserToken", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Updated")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("UserId", "LoginProvider", "Value");
+
+                    b.ToTable("UserTokens", (string)null);
                 });
 
             modelBuilder.Entity("WebAppEBOS.Entity.Entites.User", b =>
@@ -364,111 +469,6 @@ namespace WebAppEBOS.Entity.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users", (string)null);
-                });
-
-            modelBuilder.Entity("WebAppEBOS.Entity.Entites.UserClaim", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("ClaimType")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ClaimValue")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Created")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("Updated")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("UserClaims", (string)null);
-                });
-
-            modelBuilder.Entity("WebAppEBOS.Entity.Entites.UserLogin", b =>
-                {
-                    b.Property<int>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
-
-                    b.Property<DateTime>("Created")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("LoginProvider")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProviderDisplayName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProviderKey")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Updated")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("UserId");
-
-                    b.ToTable("UserLogins", (string)null);
-                });
-
-            modelBuilder.Entity("WebAppEBOS.Entity.Entites.UserRole", b =>
-                {
-                    b.Property<int>("UserId")
-                        .HasColumnType("int")
-                        .HasColumnOrder(1);
-
-                    b.Property<int>("RoleId")
-                        .HasColumnType("int")
-                        .HasColumnOrder(2);
-
-                    b.Property<DateTime>("Created")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("Updated")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("UserId", "RoleId");
-
-                    b.ToTable("UserRoles", (string)null);
-                });
-
-            modelBuilder.Entity("WebAppEBOS.Entity.Entites.UserToken", b =>
-                {
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Value")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("Created")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Updated")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("UserId", "LoginProvider", "Value");
-
-                    b.ToTable("UserTokens", (string)null);
                 });
 #pragma warning restore 612, 618
         }
