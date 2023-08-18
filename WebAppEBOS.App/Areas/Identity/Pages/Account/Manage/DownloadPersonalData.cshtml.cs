@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using WebAppEBOS.Entity.Entites;
-using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites.Identity;
 
 namespace WebAppEBOS.Areas.Identity.Pages.Account.Manage
 {

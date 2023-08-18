@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites.Identity;
 using WebAppEBOS.Entity.Entites.Interfaces;
 
 namespace WebAppEBOS.Entity;

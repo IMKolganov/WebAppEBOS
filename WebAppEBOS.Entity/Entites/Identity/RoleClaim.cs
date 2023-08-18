@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using WebAppEBOS.Entity.Entites.Interfaces;
 
-namespace WebAppEBOS.Entity.Entites;
+namespace WebAppEBOS.Entity.Entites.Identity;
 
-public class User : IdentityUser<int>, IEntity<int>, IEntityBase
-{
-    // [Required, Key] public int Id { get; set; }
+public class RoleClaim : IdentityRoleClaim<int>, IEntity<int>, IEntityBase
+{ 
     public DateTime Created { get; set; }
     public DateTime Updated { get; set; }
 }

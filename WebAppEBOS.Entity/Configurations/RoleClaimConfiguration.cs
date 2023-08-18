@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using WebAppEBOS.Entity.Entites;
+using WebAppEBOS.Entity.Entites.Identity;
 
 namespace WebAppEBOS.Entity.Configurations;
 

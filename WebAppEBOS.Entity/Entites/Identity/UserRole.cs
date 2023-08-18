@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 using WebAppEBOS.Entity.Entites.Interfaces;
 
-namespace WebAppEBOS.Entity.Entites;
+namespace WebAppEBOS.Entity.Entites.Identity;
 
 public class UserRole : IdentityUserRole<int>, IEntity<int>, IEntityBase
 {

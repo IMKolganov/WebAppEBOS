@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace WebAppEBOS.Entity.Migrations
 {
     /// <inheritdoc />
@@ -158,7 +160,30 @@ namespace WebAppEBOS.Entity.Migrations
             migrationBuilder.InsertData(
                 table: "Customers",
                 columns: new[] { "Id", "Created", "Name", "Path", "RefAppId", "Status", "Updated" },
-                values: new object[] { 1, new DateTime(2023, 8, 18, 12, 41, 14, 570, DateTimeKind.Utc).AddTicks(7777), "Instance", null, 1, 1, new DateTime(2023, 8, 18, 12, 41, 14, 570, DateTimeKind.Utc).AddTicks(7779) });
+                values: new object[,]
+                {
+                    { 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9475), "John", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9477) },
+                    { 2, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9483), "Emily", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9483) },
+                    { 3, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9485), "Michael", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9485) },
+                    { 4, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9486), "Sophia", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9486) },
+                    { 5, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9487), "William", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9487) },
+                    { 7, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9490), "Olivia", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9490) },
+                    { 8, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9491), "Liam", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9492) },
+                    { 9, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9493), "Ava", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9493) },
+                    { 10, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9494), "Noah", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9494) },
+                    { 11, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9496), "Isabella", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9496) },
+                    { 12, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9497), "James", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9497) },
+                    { 13, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9498), "Emma", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9498) },
+                    { 14, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9499), "Benjamin", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9499) },
+                    { 15, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9500), "Mia", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9500) },
+                    { 16, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9501), "Ethan", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9502) },
+                    { 17, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9503), "Charlotte", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9503) },
+                    { 18, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9505), "Alexander", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9505) },
+                    { 19, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9507), "Amelia", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9507) },
+                    { 20, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9508), "Daniel", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9508) },
+                    { 21, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9509), "Harper", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9509) },
+                    { 22, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9510), "Matthew", null, 1, 1, new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9511) }
+                });
         }
 
         /// <inheritdoc />

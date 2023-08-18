@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using WebAppEBOS.Entity.Entites.Interfaces;
 
-namespace WebAppEBOS.Entity.Entites;
+namespace WebAppEBOS.Entity.Entites.Identity;
 
 public class UserToken : IdentityUserToken<int>, IEntity<int>, IEntityBase
 {

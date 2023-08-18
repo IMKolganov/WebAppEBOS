@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebAppEBOS.Entity.Entites;
-using WebAppEBOS.Entity.Entites;
 
 namespace WebAppEBOS.Views.ManageCustomers;
 

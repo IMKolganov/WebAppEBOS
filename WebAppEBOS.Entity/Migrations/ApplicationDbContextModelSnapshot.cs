@@ -58,11 +58,191 @@ namespace WebAppEBOS.Entity.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2023, 8, 18, 12, 41, 14, 570, DateTimeKind.Utc).AddTicks(7777),
-                            Name = "Instance",
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9475),
+                            Name = "John",
                             RefAppId = 1,
                             Status = 1,
-                            Updated = new DateTime(2023, 8, 18, 12, 41, 14, 570, DateTimeKind.Utc).AddTicks(7779)
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9477)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9483),
+                            Name = "Emily",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9483)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9485),
+                            Name = "Michael",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9485)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9486),
+                            Name = "Sophia",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9486)
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9487),
+                            Name = "William",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9487)
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9490),
+                            Name = "Olivia",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9490)
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9491),
+                            Name = "Liam",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9492)
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9493),
+                            Name = "Ava",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9493)
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9494),
+                            Name = "Noah",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9494)
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9496),
+                            Name = "Isabella",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9496)
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9497),
+                            Name = "James",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9497)
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9498),
+                            Name = "Emma",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9498)
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9499),
+                            Name = "Benjamin",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9499)
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9500),
+                            Name = "Mia",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9500)
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9501),
+                            Name = "Ethan",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9502)
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9503),
+                            Name = "Charlotte",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9503)
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9505),
+                            Name = "Alexander",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9505)
+                        },
+                        new
+                        {
+                            Id = 19,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9507),
+                            Name = "Amelia",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9507)
+                        },
+                        new
+                        {
+                            Id = 20,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9508),
+                            Name = "Daniel",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9508)
+                        },
+                        new
+                        {
+                            Id = 21,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9509),
+                            Name = "Harper",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9509)
+                        },
+                        new
+                        {
+                            Id = 22,
+                            Created = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9510),
+                            Name = "Matthew",
+                            RefAppId = 1,
+                            Status = 1,
+                            Updated = new DateTime(2023, 8, 18, 12, 46, 44, 556, DateTimeKind.Utc).AddTicks(9511)
                         });
                 });
 

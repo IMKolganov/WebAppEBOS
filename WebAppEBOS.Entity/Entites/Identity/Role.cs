@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using WebAppEBOS.Entity.Entites.Interfaces;
 
-namespace WebAppEBOS.Entity.Entites;
+namespace WebAppEBOS.Entity.Entites.Identity;
 
 public class Role : IdentityRole<int>, IEntity<int>, IEntityBase
 { 
